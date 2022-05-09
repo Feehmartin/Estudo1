@@ -9,7 +9,10 @@ public class L1Ex12 : MonoBehaviour
     void Start()
     {
       // nao consegui
-
+      float valorNormal = horasN * 10;
+      float valorExtra = horasE * 15;
+      
+      Debug.Log(valorExtra + valorNormal);
     }
 
     void Update()
